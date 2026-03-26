@@ -10,7 +10,7 @@ import react from '../Images/React.png'
 import node from '../Images/Node.webp'
 import ex from '../Images/express.png'
 import git from '../Images/git.png'
-import vs from '../Images/VS_Code.png'
+import vs from '../Images/VS_code.png'
 import vercel from '../Images/vercel.png'
 
 const Skills = () => {
