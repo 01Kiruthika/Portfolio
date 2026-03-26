@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -5,42 +6,71 @@
 }
 
 .contact {
-  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-
 }
 
 h2 {
   text-align: center;
-  color: white;
+  color: var(--text-main);
   padding: 10px;
   font-size: 2rem;
 }
 
 h2 span {
-  color: gold;
+  color: var(--primary);
+}
+
+.contact-section {
+  text-align: center;
+  padding: 30px 15px;
+}
+
+.contact-text {
+  margin: 10px 0 20px;
+  color: var(--text-main);
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.contact-links a {
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 2px solid var(--primary);
+  color: var(--text-main);
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.contact-links a:hover {
+  background: var(--primary);
+  color: var(--bg-main);
 }
 
 .form-container {
-  /* border: 2px solid; */
   width: 420px;
   padding: 30px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-main);
   backdrop-filter: blur(12px);
-  box-shadow: 0 0 25px rgba(16, 185, 129, 0.3);
-  color: #ecfdf5;
+  box-shadow: 0 0 10px var(--primary);
+  color: var(--text-main);
   text-align: center;
 }
 
 .form-container h2 {
   margin-bottom: 20px;
-  color: #6ee7b7;
+  color: var(--primary);
 }
-
 
 .input-group {
   position: relative;
@@ -52,9 +82,9 @@ h2 span {
   width: 100%;
   padding: 12px;
   background: transparent;
-  border: 1px solid #6ee7b7;
+  border: 1px solid var(--text-main);
   border-radius: 8px;
-  color: #ecfdf5;
+  color: var(--text-main);
   outline: none;
 }
 
@@ -63,37 +93,34 @@ h2 span {
   resize: none;
 }
 
-
 .input-group label {
   position: absolute;
   left: 12px;
   top: 12px;
-  color: #aaa;
+  color: var(--text-main);
   font-size: 14px;
   pointer-events: none;
   transition: 0.3s;
 }
 
-.input-group input:focus+label,
-.input-group input:valid+label,
-.input-group textarea:focus+label,
-.input-group textarea:valid+label {
+.input-group input:focus + label,
+.input-group input:valid + label,
+.input-group textarea:focus + label,
+.input-group textarea:valid + label {
   top: -10px;
   left: 10px;
-  font-size: 15px;
-  color: #10b981;
-  background: #022c22;
+  font-size: 12px;
+  color: var(--primary);
+  background: var(--bg-main);
   padding: 0 5px;
 }
 
-
 button {
-  /* width: 100%; */
   padding: 12px;
   border: none;
   border-radius: 25px;
-  background: linear-gradient(90deg, #10b981, #6ee7b7);
-  color: #022c22;
+  background: var(--primary);
+  color: var(--bg-main);
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
@@ -101,26 +128,24 @@ button {
 
 button:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(110, 231, 183, 0.7);
+  box-shadow: 0 0 10px var(--primary);
 }
 
 .iconsget {
-  /* border: 2px solid red; */
   margin-top: 50px;
   text-align: center;
-  color: white;
+  color: var(--text-main);
 }
 
 .iconsplace {
-  /* border: 2px solid; */
   display: flex;
   justify-content: center;
-  margin-left: 50px;
-  margin-top: 15px;
+  margin-left: 20px;
+  /* margin-top: 10px; */
 }
 
 @media screen and (max-width: 768px) {
-  
+
 
   .contact {
     flex-direction: column;
@@ -128,7 +153,7 @@ button:hover {
     padding: 10px;
   }
 
-  
+
   h2 {
     font-size: 1.5rem;
   }
@@ -136,29 +161,29 @@ button:hover {
   .form-container {
     width: 100%;
     max-width: 350px;
-   
+
     padding: 20px;
   }
 
-  
+
   .input-group input,
   .input-group textarea {
     font-size: 14px;
     padding: 10px;
   }
 
- 
+
   .input-group label {
     font-size: 12px;
   }
 
- 
+
   button {
     width: 100%;
     padding: 10px;
   }
 
- 
+
   .iconsget {
     margin-top: 30px;
   }
@@ -166,7 +191,7 @@ button:hover {
   .iconsplace {
     margin-left: 0;
     flex-wrap: wrap;
-  
+
     gap: 10px;
   }
 

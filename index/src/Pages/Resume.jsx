@@ -5,7 +5,7 @@ const Resume = () => {
     return (
         <>
             <div className="protiltle">
-                <h3>Resume</h3>
+                <h3><span>Re</span>sume</h3>
             </div>
             <div className="resume-container">
 
@@ -24,7 +24,7 @@ const Resume = () => {
                     </div>
 
                     <div className="card summary-card">
-                        <h3>Professional Summary</h3>
+                        <h2>Professional Summary</h2>
                         <p>
                             Passionate Computer Science student with strong interest in
                             MERN Stack Development. Skilled in building responsive web
@@ -38,7 +38,7 @@ const Resume = () => {
                 <div className="resume-right">
 
                     <div className="card education-card">
-                        <h3>Education</h3>
+                        <h2>Education</h2>
 
                         <div className="edu-item">
                             <h4>B.Sc Computer Science</h4>
@@ -60,7 +60,7 @@ const Resume = () => {
                     </div>
 
                     <div className="card project-card">
-                        <h3>Projects</h3>
+                        <h2>Projects</h2>
 
                         <ul>
                             <li>

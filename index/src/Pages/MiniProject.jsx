@@ -5,13 +5,13 @@ import ProjectCard from "./ProjectCard.jsx"
 const MiniProject = () => {
   const projects = [
 
-   
+
     {
       id: 2,
       image: "https://picsum.photos/400/250?2",
       title: "About Tamil Nadu Dams",
       description:
-        "An interactive web application displaying detailed information about Tamil Nadu dams, including filtering by district and dynamic data rendering using React.",
+        "An informative web app displaying details of dams with filtering features. Developed using React with dynamic data rendering and responsive UI.",
       languages: ["HTML", "CSS", "React"],
       link: "https://sk-boutique.vercel.app/"
     },
@@ -20,7 +20,7 @@ const MiniProject = () => {
       image: "https://picsum.photos/400/250?3",
       title: "Voice to Text Converter",
       description:
-        "A real-time voice-to-text conversion application that captures speech input and converts it into text using browser speech recognition APIs with a simple UI.",
+        "A web app that converts speech into text in real time using browser APIs. Built with React, HTML, and CSS for a simple and interactive experience.",
       languages: ["HTML", "CSS", "React"],
       link: "https://flower-boutique-ecru.vercel.app/"
     }

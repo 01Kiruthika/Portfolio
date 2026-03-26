@@ -7,7 +7,7 @@
 .project-Container {
   /* border: 1px solid; */
   /* padding: 20px; */
-  color: white;
+  color: var(--text-main);
 }
 
 .project-Container h3 {
@@ -18,11 +18,11 @@
 }
 
 .project-Container h3::first-letter {
-  color: gold;
+  color: var(--primary);
 }
 
 .letter::first-letter {
-  color: gold;
+  color: var(--primary);
 }
 
 .project-grid {
@@ -37,11 +37,11 @@
 .carddesign {
   width: 310px;
   height: auto;
-  background: #1e1e1e;
+  background: var(--bg-main);
   border-radius: 10px;
   /* overflow: hidden; */
   transition: 0.3s;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 15px var(--border);
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -96,8 +96,8 @@
 
 .demo-btn {
   padding: 10px 20px;
-  background: linear-gradient(45deg, #ff6b6b, #6c5ce7);
-  color: white;
+  background: var(--primary);
+  color: var(--bg-main);
   border-radius: 25px;
   text-decoration: none;
   font-size: 14px;
@@ -119,11 +119,13 @@
 .content h2 {
   font-size: 22px;
   margin-bottom: 10px;
+  color: var(--text-main);
 }
 
 .content p {
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.6;
+  color: var(--text-main);
 }
 
 
@@ -131,7 +133,8 @@
   display: inline-block;
   margin-top: 10px;
   padding: 5px 10px;
-  background: #ff6b6b;
+  background: var(--primary);
+  color: var(--bg-main);
   border-radius: 10px;
   font-size: 12px;
   margin-right: 10px;
@@ -148,9 +151,7 @@
   top: -50%;
   left: -50%;
 
-  background: conic-gradient(from 50deg,
-      #00f5d4,
-      #9b5de5);
+  background: conic-gradient(from 50deg, var(--primary),var(--text-main));
 
   animation: rotateBorder 5s linear infinite;
   z-index: -2;
@@ -164,7 +165,7 @@
   content: "";
   position: absolute;
   inset: 3px;
-  background: #1e1e1e;
+  background: var(--bg-main);
   border-radius: 13px;
   z-index: -1;
 }

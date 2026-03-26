@@ -15,13 +15,35 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Message Sent");
+
+    // 👉 Temporary (until backend/email added)
+    alert("Message feature coming soon! Please contact via email.");
+
+    // Reset form
+    setForm({
+      name: "",
+      email: "",
+      message: ""
+    });
   };
 
   return (
-    <>
+    <div className="contact-section">
 
-      <h2>Contact <span>Me</span> </h2>
+      <h2>Contact <span>Me</span></h2>
+
+
+      <p className="contact-text">
+        Feel free to reach out for opportunities or collaborations.
+      </p>
+
+
+      <div className="contact-links">
+        <div className="iconsplace">
+          <Icons />
+        </div>
+
+      </div>
 
       <div className="contact">
 
@@ -30,17 +52,34 @@ const Contact = () => {
           <form onSubmit={handleSubmit}>
 
             <div className="input-group">
-              <input type="text" name="name" required onChange={handleChange} />
+              <input
+                type="text"
+                name="name"
+                required
+                value={form.name}
+                onChange={handleChange}
+              />
               <label>Your Name</label>
             </div>
 
             <div className="input-group">
-              <input type="email" name="email" required onChange={handleChange} />
+              <input
+                type="email"
+                name="email"
+                required
+                value={form.email}
+                onChange={handleChange}
+              />
               <label>Your Email</label>
             </div>
 
             <div className="input-group">
-              <textarea name="message" required onChange={handleChange}></textarea>
+              <textarea
+                name="message"
+                required
+                value={form.message}
+                onChange={handleChange}
+              ></textarea>
               <label>Your Message</label>
             </div>
 
@@ -48,19 +87,17 @@ const Contact = () => {
 
           </form>
 
-
-
         </div>
 
       </div>
-      <div className="iconsget">
-        <h3>Get In touch with me</h3>
-        <div className="iconsplace">
-          <Icons />
-        </div>
 
-      </div>
-    </>
+
+      {/* <div className="iconsget">
+        <h3>Get In Touch</h3>
+
+      </div> */}
+
+    </div>
   );
 };
 

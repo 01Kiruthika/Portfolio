@@ -11,17 +11,17 @@ const Project = () => {
   const projects = [
     {
       id: 1,
-      image: Fish ,
+      image: Fish,
       title: "Fish Aquarium",
-      description: "A visually appealing aquarium website showcasing different fish species with smooth animations and responsive design.",
+      description: "A responsive website showcasing different fish species with a clean and interactive design. Built using HTML and CSS with smooth animations and mobile- friendly layout.",
       languages: ["HTML", "CSS"],
       link: "https://fish-aquarium-lovat.vercel.app/"
     },
     {
       id: 2,
-      image: Saree ,
+      image: Saree,
       title: "SK Saree Boutique",
-      description: "An elegant boutique website displaying saree collections with modern UI, product sections, and responsive layout.",
+      description: "A modern boutique website displaying saree collections with an elegant UI. Designed responsive product sections using HTML, CSS, and Bootstrap.",
       languages: ["HTML", "CSS", "Bootstrap"],
       link: "https://sk-boutique.vercel.app/"
     },
@@ -29,7 +29,7 @@ const Project = () => {
       id: 3,
       image: Floral,
       title: "Floral Fantasy",
-      description: "A creative floral-themed website featuring interactive UI elements, animations, and a vibrant design experience.",
+      description: "A creative floral-themed website with visually appealing design and animations. Focused on responsive layout and engaging user interface using HTML, CSS, and JavaScript.",
       languages: ["HTML", "CSS", "JavaScript"],
       link: "https://flower-boutique-ecru.vercel.app/"
     },
