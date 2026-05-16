@@ -5,7 +5,7 @@ import Fish from '../Images/fish.jpg'
 import Saree from '../Images/saree.jpg'
 import Floral from '../Images/floral.jpg'
 import Library from '../Images/library.jpg'
-import Smartcity from "../Images/Smartcity.jpg"
+import Smartcity from "../Images/smartcity.jpg"
 import recipe from "../Images/recipe.jpg"
 
 
