@@ -61,7 +61,7 @@ const About = () => {
           </div>
 
           <div className="cv-button">
-            <Link to="/KIRUTHIKA_RESUME.pdf" target='_blank' download>
+            <Link to="/Resume/KIRUTHIKA-RESUME.pdf" target='_blank' download>
               Download CV <i className="fa fa-download" aria-hidden="true"></i>
             </Link>
           </div>
