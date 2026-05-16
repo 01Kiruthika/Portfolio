@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Projectstyle.css";
 import ProjectCard from "./ProjectCard.jsx"
+import dam from '../Images/dam.jpg'
 
 const MiniProject = () => {
   const projects = [
@@ -8,7 +9,7 @@ const MiniProject = () => {
 
     {
       id: 2,
-      image: "https://picsum.photos/400/250?2",
+      image : dam,
       title: "About Tamil Nadu Dams",
       description:
         "An informative web app displaying details of dams with filtering features. Developed using React with dynamic data rendering and responsive UI.",

@@ -7,7 +7,7 @@ import About from '../Pages/About.jsx'
 import Skills from '../Pages/Skills.jsx'
 import Project from '../Pages/Project.jsx'
 import Contact from '../Pages/Contact.jsx'
-import MiniProject from '../Pages/MiniProject.jsx'
+// import MiniProject from '../Pages/MiniProject.jsx'
 import Resume from '../Pages/Resume.jsx'
 
 const Main = ({ open, setOpen }) => {
@@ -27,7 +27,7 @@ const Main = ({ open, setOpen }) => {
                     <Route path='/about' element={<About />}></Route>
                     <Route path='/skills' element={<Skills />}></Route>
                     <Route path='/project' element={<Project />}></Route>
-                    <Route path='/miniproject' element={<MiniProject />}></Route>
+                    {/* <Route path='/miniproject' element={<MiniProject />}></Route> */}
                     <Route path='/resume' element={<Resume />}></Route>
                     <Route path='/contact' element={<Contact />}></Route>
                 </Routes>
