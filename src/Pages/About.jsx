@@ -49,15 +49,13 @@ const About = () => {
                 <span className="colon">:</span>
                 <span className="value">9159620313</span>
               </div>
-
+              
               <div className="info-row">
                 <span className="label">Languages</span>
                 <span className="colon">:</span>
                 <span className="value">Tamil, English, Telugu</span>
               </div>
-
             </div>
-
           </div>
 
           <div className="cv-button">
