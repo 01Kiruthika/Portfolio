@@ -34,7 +34,7 @@ const Project = () => {
       description:
         "A dynamic library management system is to add books and students, manage borrowing, track issued books, and show remaining stock in simple interface.",
       languages: ["HTML", "CSS", "JQuery"],
-      link: "https://library-management-b6wo.vercel.app/"
+      link: "https://01kiruthika.github.io/Library-management/"
     },
     {
       id: 4,
